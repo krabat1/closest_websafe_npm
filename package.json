@@ -1,0 +1,28 @@
+{
+  "name": "closest_websafe",
+  "version": "1.0.0",
+  "description": "find the closest websafe color by hex value",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krabat1/closest_websafe_npm.git"
+  },
+  "keywords": [
+    "websafe",
+    "color",
+    "hex",
+    "hexadecimal"
+  ],
+  "author": "krabat1 <istvan.orosz78@gmail.com>",
+  "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/krabat1/closest_websafe_npm/issues"
+  },
+  "homepage": "https://github.com/krabat1/closest_websafe_npm#readme"
+}
