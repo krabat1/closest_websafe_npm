@@ -27,7 +27,7 @@ function hex2websafe(hex) {
     */
     let hexValues = [];
     hexValues = [1, 3, 5].map((o) => {
-        return color.value.toUpperCase().slice(o, o + 2);
+        return hex.toUpperCase().slice(o, o + 2);
     });
     if (websafes.indexOf(hexValues[0]) >= 0 &&
         websafes.indexOf(hexValues[1]) >= 0 &&

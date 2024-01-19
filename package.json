@@ -4,7 +4,7 @@
   "description": "find the closest websafe color by hex value",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "files": [
     "index.js"
@@ -21,8 +21,11 @@
   ],
   "author": "krabat1 <istvan.orosz78@gmail.com>",
   "license": "ISC",
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/krabat1/closest_websafe_npm/issues"
   },
-  "homepage": "https://github.com/krabat1/closest_websafe_npm#readme"
+  "homepage": "https://github.com/krabat1/closest_websafe_npm#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
