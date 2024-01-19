@@ -25,6 +25,11 @@ function hex2websafe(hex) {
         }
     });
     */
+    let regex = /^#[0-9A-Fa-f]{6}$/;
+    if( !regex.test(hex) ){
+        throw new Error("closest_websafe: invalid input");
+    }
+
     let hexValues = [];
     hexValues = [1, 3, 5].map((o) => {
         return hex.toUpperCase().slice(o, o + 2);
